@@ -4,9 +4,11 @@ Rails.application.routes.draw do
   root to: 'home#index'
 
   get 'home/about' #to add a new url
+  get 'about' => 'home#about'
 
   get 'pages/help' #to create a new url that is not under home
 
+  get 'contact' => 'contact#info' 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
