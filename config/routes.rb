@@ -8,7 +8,10 @@ Rails.application.routes.draw do
 
   get 'pages/help' #to create a new url that is not under home
 
-  get 'contact' => 'contact#info' 
+  get 'contact' => 'contact#info'
+
+  #git status, git add --all, git status, git commit -m "my changes", git push
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

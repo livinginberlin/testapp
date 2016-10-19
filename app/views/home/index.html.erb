@@ -1,5 +1,9 @@
 <center>
-<h1>Welcome Lazzy Cooking 101</h1>
+
+<% content_for :page_title do %>  <!-- to make page title specified as page title -->
+<h1 id="title"> Welcome Lazzy Cooking 101 </h1>
+<% end %>
+
 <p>Best food is the one cooked with love!</p>
 
 <h2><% 1.upto(5) do |each| %>

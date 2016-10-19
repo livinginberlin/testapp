@@ -1,6 +1,9 @@
 
 <center>
-<h1>this is how to contact me. (<%= @name%> <%= @surname%>!)</h1>
+<% content_for :page_title do %>
+<h1 id="title">this is how to contact me. (<%= @name%> <%= @surname%>!)</h1>
+<% end %>
+
 <p>fake it till you make it</p>
 
 </center>
